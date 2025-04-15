@@ -37,7 +37,7 @@ def main():
         screen.blit(bg_img2, [-x+1600, 0])#練習7背景を増やす
         screen.blit(bg_img, [-x+3200, 0])#練習9ループ化
         #練習4こうかとん表示
-        screen.blit(kk_img,kk_rct)
+        screen.blit(kk_img,kk_rct)#
         pg.display.update()
         tmr += 1        
         clock.tick(200)
